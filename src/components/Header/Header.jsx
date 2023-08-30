@@ -6,8 +6,8 @@ import React from 'react'
 
 const Header = () => {
   return (
-    <div classname='holder'>
-        <header classname='header'>
+    <div className='holder'>
+        <header className='header'>
           <Navbar />
           <div className='header-content flex flex-c text-center text-white'>
             <h2 className='header-title text-capitalize'>find your book of choice.

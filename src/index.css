@@ -8,6 +8,11 @@
     --black-color: #010101;
     --light-black-color: #717171;
     --transition: all 300ms ease-in-out;
+    --orange-theme: #dc8665;
+    --teal-theme: #138086;
+    --purple-theme: #534666;
+    --pink-theme: #cd7672;
+    --yellow-theme: #eeb462;
 } 
 
 * {
@@ -24,7 +29,7 @@ body {
     font-size: 1.6rem;
     line-height: 1.7;
     font-family: 'Poppins', sans-serif;
-    color: var(--black-color);
+    color: var(--white-color);
 }
 
 /* presets */
@@ -33,7 +38,7 @@ ul {
 }
 a {
     text-decoration: none;
-    color: var(--black-color);
+    color: var(--white-color);
 }
 button{
     outline: 0;
@@ -63,6 +68,7 @@ input {
 /* backgrounds */
 .bg-pink {background-color: var(--pink-color);}
 .bg-purple {background-color: var(--purple-color);}
+.bg-black {background-color: var(--black-color);}
 .bg-white {background-color: var(--white-color);}
 
 /* text */
