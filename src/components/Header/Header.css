@@ -1,6 +1,6 @@
 .header-content {
     min-height: 75vh;
-    background: linear-gradient(rgba(42, 76, 176, 0.3), rgba(39, 129, 174, 0.5)), url('../../images/library.jpeg') center/cover no-repeat;
+    background: linear-gradient(rgba(220, 134, 101, 0.5), rgba(205, 118, 114, 0.5)), url('../../images/library.jpeg') center/cover no-repeat;
     flex-direction: column;
 }
 
