@@ -37,7 +37,7 @@ ul {
 }
 a {
     text-decoration: none;
-    color: var(--purple-theme);
+    color: var(--orange-theme);
 }
 button {
     outline: 0;
@@ -78,6 +78,7 @@ input {
 .text-white {color: var(--white-color);}
 .text-purple {color: var(--purple-theme);}
 .text-teal {color: var(--teal-theme);}
+.text-orange{color: var(--orange-theme)}
 .text-light-black {color: var(--light-black-color);}
 .text-uppercase {text-transform: uppercase;}
 .text-center {text-align: center;}

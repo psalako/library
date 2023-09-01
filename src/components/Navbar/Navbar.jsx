@@ -22,7 +22,7 @@ const Navbar = () => {
           onClick={handleNavbar}>
             <HiOutlineMenuAlt3 
             size={35} 
-            style = {{color: `${toggleMenu ? "#fff" : "#534666"}`}}/>
+            style = {{color: `${toggleMenu ? "#fff" : "#dc8665"}`}}/>
           </button>
         </div>
 
