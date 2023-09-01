@@ -6,6 +6,7 @@
 .search-form-elem {
     padding: 1.4rem 2.8rem;
     border-radius: 3.8rem;
+    background-color: rgba(220, 134, 101, 0.5);
 }
 
 .search-form-elem .form-content {
@@ -15,4 +16,8 @@
 
 .search-form-elem .form-content::placeholder{
     opacity: 0.9;
+}
+.form-control {
+    background-color: rgba(220, 134, 101, 0);
+    color: white;
 }
