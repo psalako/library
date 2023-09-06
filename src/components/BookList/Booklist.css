@@ -8,6 +8,9 @@
     gap: 3rem;
 }
 
+.booklist .section-title {
+    text-align: center;
+}
 .book-item {
     padding: 3rem 2rem;
     border-radius: 4px;

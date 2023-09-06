@@ -21,7 +21,7 @@ const BookList = () => {
   return (
     <section className='booklist'>
       <div className='container'>
-        <div className='section-title'>
+        <div className='section-title fs-20'>
           <h2>{resultTitle}</h2>
         </div>
         <div className='booklist-content grid'>
