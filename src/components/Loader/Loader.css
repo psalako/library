@@ -1,5 +1,6 @@
 .loader {
     padding: 4rem 0;
+    background: linear-gradient(to left, var(--purple-theme), var(--teal-theme));
 }
 
 .loader img {

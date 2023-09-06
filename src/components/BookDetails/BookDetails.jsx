@@ -11,7 +11,7 @@ const BookDetails = () => {
 const {id} = useParams();
 const [loading, setLoading] = useState(false);
 const [book, setBook] = useState(null);
-const navigate = useNavigate;
+const navigate = useNavigate();
 
 useEffect(() => {
   setLoading(true);

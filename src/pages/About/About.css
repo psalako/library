@@ -1,5 +1,6 @@
 .about {
     padding: 3rem 0;
+    background: linear-gradient(to right,var(--teal-theme), var(--purple-theme));
 }
 
 .about-content {
