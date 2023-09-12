@@ -23,7 +23,7 @@ useEffect(() => {
       if(data){
         const {description, title, covers, subject_places, subject_times, subjects} = data;
         const newBook = {
-          description: description ? description.value : "No description found.", 
+          description: description.value ? description.value : "No description found.", 
           title: title,
           cover_img: covers ? `https://covers.openlibrary.org/b/id/${covers[0]}-L.jpg` : coverimg,
           subject_places: subject_places ? subject_places.join(", ") : "No subject places found.",
@@ -62,7 +62,8 @@ return (
               <span className='fw-6 fs-24'>{book?.title}</span>
             </div>
             <div className='book-details-item description'>
-              <span>{book?.description}</span>
+              <span className='fw-6'>Description: </span>
+              <span className='text-italic'>{book?.description}</span>
             </div> 
             <div className='book-details-item'>
               <span className='fw-6'>Subject Places: </span>
