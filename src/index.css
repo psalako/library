@@ -81,6 +81,7 @@ input {
 .text-purple {color: var(--purple-theme);}
 .text-teal {color: var(--teal-theme);}
 .text-orange{color: var(--orange-theme)}
+.text-off-white{color: #e3ded1;}
 .text-light-black {color: var(--light-black-color);}
 .text-uppercase {text-transform: uppercase;}
 .text-center {text-align: center;}

@@ -30,9 +30,9 @@ const SearchForm = () => {
         <div className='search-form-content'>
           <form className='search-form' onSubmit={handleSubmit}>
             <div className='search-form-elem flex flex-sb'>
-              <input type = "text" className='form-control text-white fw-6' placeholder='' ref = {searchText}/>
+              <input type = "text" className='form-control text-off-white fw-6' placeholder='' ref = {searchText}/>
               <button type='submit' className='flex flex-c' onClick={handleSubmit}>
-                <FaSearch className='text-orange' size= {32} />
+                <FaSearch className='text-off-white' size= {26} />
               </button>
             </div>
           </form>
