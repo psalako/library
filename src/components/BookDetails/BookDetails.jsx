@@ -23,7 +23,7 @@ useEffect(() => {
       if(data){
         const {description, title, covers, subject_places, subject_times, subjects} = data;
         const newBook = {
-          description: description.value ? description.value : "No description found.", 
+          description: description ? description : "No description found.", 
           title: title,
           cover_img: covers ? `https://covers.openlibrary.org/b/id/${covers[0]}-L.jpg` : coverimg,
           subject_places: subject_places ? subject_places.join(", ") : "No subject places found.",
@@ -44,6 +44,7 @@ useEffect(() => {
 }, [id]);
 
 if(loading){return <Loading />;}
+console.log(book);
 
 return (
     <section className='book-details'>
