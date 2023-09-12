@@ -19,12 +19,11 @@ useEffect(() => {
     try{
       const response = await fetch(`${URL}${id}.json`);
       const data = await response.json();
-      console.log(data);
 
       if(data){
         const {description, title, covers, subject_places, subject_times, subjects} = data;
         const newBook = {
-          description: description ? description : "No description found.", 
+          description: description ? description.value : "No description found.", 
           title: title,
           cover_img: covers ? `https://covers.openlibrary.org/b/id/${covers[0]}-L.jpg` : coverimg,
           subject_places: subject_places ? subject_places.join(", ") : "No subject places found.",
@@ -46,7 +45,7 @@ useEffect(() => {
 
 if(loading){return <Loading />;}
 
-  return (
+return (
     <section className='book-details'>
       <div className='container'>
         <button type='button' className='flex flex-c back-btn text-white' onClick={() => navigate("/book")}>
@@ -64,7 +63,7 @@ if(loading){return <Loading />;}
             </div>
             <div className='book-details-item description'>
               <span>{book?.description}</span>
-            </div>
+            </div> 
             <div className='book-details-item'>
               <span className='fw-6'>Subject Places: </span>
               <span className='text-italic'>{book?.subject_places}</span>

@@ -36,7 +36,7 @@
     margin-bottom: 1.4rem;
 }
 
-.book-details-item.description {
+.book-details-item .description {
     opacity: 0.8;
 }
 

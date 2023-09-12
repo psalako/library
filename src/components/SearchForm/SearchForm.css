@@ -20,6 +20,8 @@
 .form-control {
     background-color: rgba(220, 134, 101, 0);
 }
-.submit {
-    color: #e3d3d1
+
+::placeholder {
+    color: var(--text-off-white);
+    opacity: 50%;
 }
